@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: skyblue;
+}
+
+.container {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 50%;
+    margin: 50px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 1px .5px .5px .5px black;
+}
+.container p {
+    font-weight: 100;
+    font-size: 11px;
+    opacity: .5;
+    padding: 5px 0;
+    font-style: italic;
+}
+.container ol {
+    margin: 10px 0;
+}
+.container ol li {
+    margin: 5px 0;
+    padding: 3px;
+      -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+.container ol li:nth-child(even){
+    background-color: #999;
+}
+.container .add {
+    margin: 10px auto;
+    padding: 5px 7px;
+    border: none;
+    background-color: skyblue;
+    font-weight: bold;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+}
+.container .add:hover{
+    cursor: pointer;
+    opacity: .75;
+}
+.container input {
+    padding: 3px 5px;
+}
+.container form {
+    display: inline-block;
+}
+#empty {
+    background-color: red;
+}
+#save {
+    background-color: greenyellow;
+}
+#clear-button {
+    background-color: cadetblue;
+}
+.container .completed {
+    text-decoration: line-through;
+    color: #999;
+}
+
+@media only screen and (min-width: 750px) {
+    .container {
+        width: 50%;
+    }
+    .container input {
+        width: 400px; /* Tetapkan lebar tetap untuk input */
+    }
+}
+
+/* Untuk layar besar dengan lebar minimal 1300px */
+@media only screen and (min-width: 1300px){
+    .container {
+        width: 50%;
+    }
+    .container input {
+        width: 600px; /* Lebar input yang lebih besar untuk layar yang lebih besar */
+    }
+}
