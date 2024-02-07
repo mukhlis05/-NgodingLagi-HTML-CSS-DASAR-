@@ -1,5 +1,181 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(223, 251, 242);
+}
+header {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+header h1 {
+  margin: 20px 50px;
+  font-size: 1.5em;
+  color: rgb(56, 203, 154);
+}
+.nav-header ul {
+  display: flex;
+  text-decoration: none;
+  gap: 50px;
+  justify-content: space-evenly;
+  margin-right: 50px;
+}
+.nav-header ul li {
+  list-style-type: none;
+  padding-top: 6px;
+}
+.nav-header ul li a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.725);
+  font-size: 15px;
+  font-weight: 700;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+span img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+span img:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+.nav-header ul li a:hover {
+  opacity: 0.5;
+}
+.main-satu {
+  width: 100%;
+  text-align: center;
+}
+.main-satu img {
+  width: 90%;
+}
+.main-dua {
+  text-align: center;
+  margin-top: 30px;
+  width: 100%;
+}
+.main-dua h1 {
+  font-size: 25px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 900;
+}
+.main-dua .card {
+  display: flex;
+  justify-content: center;
+  gap: 3.4%;
+}
+.main-dua .card .card-items img {
+  width: 80px;
+  object-fit: cover;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+.main-dua .card .card-items {
+  width: 15%;
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.477);
+  background-color: aliceblue;
+}
+.main-tiga {
+  text-align: center;
+  margin-top: 50px;
+}
+.main-tiga .card {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1%;
+}
+.main-tiga .card .card-items img {
+  width: 85%;
+  object-fit: cover;
+}
+.main-tiga .card .card-items {
+  width: 17%;
+  height: 15%;
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.477);
+  background-color: aliceblue;
+}
+.main-tiga .card .card-items button {
+  padding: 8px;
+  margin-top: 5px;
+  border: none;
+  color: aliceblue;
+  background-color: rgb(23, 202, 142);
+  width: 95%;
+  border-radius: 5px;
+  font-weight: bolder;
+}
+.main-empat {
+  margin-top: 100px;
+  text-align: center;
+}
+.main-empat .main-empat-section {
+  display: flex;
+  margin-top: 50px;
+  gap: 50px;
+}
+.main-empat .main-empat-section section img {
+  width: 400px;
+  margin-left: 200px;
+}
+.main-empat .main-empat-section .content {
+  text-align: left;
+  width: 50%;
+  margin-right: 100px;
+}
+.main-empat .main-empat-section .content h1 {
+  font-size: 25px;
+  font-weight: bolder;
+}
+.main-empat .main-empat-section  .content button {
+  padding: 8px;
+  margin-top: 15px;
+  border: none;
+  color: aliceblue;
+  background-color: rgb(23, 202, 142);
+  border-radius: 5px;
+  font-weight: bolder;
+}
+.main-lima {
+  margin-top: 100px;
+  text-align: center;
+}
+.main-lima .main-lima-section {
+  display: flex;
+  margin-top: 50px;
+  gap: 50px;
+}
+.main-lima .main-lima-section section img {
+  width: 400px;
+  margin-right: 200px;
+}
+.main-lima .main-lima-section .content {
+  text-align: left;
+  width: 50%;
+  margin-left: 100px;
+}
+.main-lima .main-lima-section .content h1 {
+  font-size: 25px;
+  font-weight: bolder;
+}
+.main-lima .main-lima-section  .content button {
+  padding: 8px;
+  margin-top: 15px;
+  border: none;
+  color: aliceblue;
+  background-color: rgb(23, 202, 142);
+  border-radius: 5px;
+  font-weight: bolder;
 }
