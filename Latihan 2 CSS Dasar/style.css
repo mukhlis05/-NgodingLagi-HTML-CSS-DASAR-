@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header section {
+  display: flex;
+  align-items: end;
+}
+.header-satu {
+  flex: 1;
+}
+.header-satu h1 {
+  margin-bottom: 20px;
+  margin-left: 30px;
+  font-size: 1.5em;
+}
+.header-dua {
+  background-color: rgb(30, 144, 222);
+  flex: 4;
+  height: 120px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+.header-dua nav {
+  flex: 1;
+  align-self: flex-end;
+}
+.header-dua nav ul {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+.header-dua nav ul li {
+  list-style-type: none;
+}
+.header-dua nav ul li a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 1.3em;
+}
+.header-dua nav ul li a:hover {
+  border-bottom: 2px solid whitesmoke;
+  padding-bottom: 5px;
+}
+.header-dua section {
+  color: aliceblue;
+  flex: 1;
+  align-self: flex-start;
+}
+.header-dua section ul {
+  display: flex;
+  gap: 30px;
+  width: 100%;
+  justify-content: end;
+  margin-right: 2em;
+  margin-top: 1.3em;
+}
+.header-dua section ul li {
+  list-style-type: none;
+  font-weight: 600;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+.header-dua section ul li:hover {
+  border-bottom: 2px solid whitesmoke;
+  padding-bottom: 5px;
+}
+main .main-satu {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(246, 245, 234);
+}
+main .main-satu h1 {
+  color: rgb(161, 136, 35);
+  font-size: 3em;
+  text-align: center;
+}
+main .main-satu h6 {
+  color: rgb(100, 88, 81);
+  text-align: center;
+  font-size: 2em;
+  font-weight: 300;
+}
+main .main-dua {
+  display: flex;
+  height: 400px;
+  width: 100%;
+}
+main .main-dua .main-dua-satu {
+  flex: 2.2;
+}
+main .main-dua .main-dua-satu img {
+  width: 100%;
+  object-fit: cover;
+  height: 400px;
+}
+main .main-dua .main-dua-dua {
+  flex: 1;
+  background-color: black;
+}
+main .main-dua .main-dua-dua h1 {
+    color: rgb(231, 211, 128);
+    padding: 150px 20px 0 20px;
+    font-size: 2em;
+}
+main .main-dua .main-dua-dua p {
+    color: aliceblue;
+    padding: 10px 20px 0 20px;
+}
+main .main-dua .main-dua-dua h2 {
+    color: aliceblue;
+    padding: 20px 20px 0 20px;
+    cursor: pointer;
+}
+main .main-tiga {
+    display: flex;
+    width: 80%;
+    margin: 8em auto;
+}
+main .main-tiga .main-tiga-satu {
+    flex: 1;
+    padding: 10px 20px 0 20px;
+}
+main .main-tiga .main-tiga-satu h1 {
+    font-size: 1.7em;
+    color: rgb(153, 132, 49);
+    padding-bottom: 5px;
+}
+main .main-tiga .main-tiga-satu a {
+  font-size: 1.5em;
+  font-weight: 800;
+  cursor: pointer;
+  color: black;
+}
+main .main-tiga .main-tiga-satu a:hover {
+  text-decoration: underline;
+  opacity: .8;
+}
+main .main-tiga .main-tiga-dua {
+    flex: 1.3;
+}
+main .main-tiga .main-tiga-dua img{
+    width: 100%;
+}
+main .main-tiga .main-tiga-satu div h1 {
+  color: black;
+  font-size: 1.3em;
+  padding-top: 7px;
+  font-weight: 800;
+  cursor: pointer;
+}
+main .main-tiga .main-tiga-satu div {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+main .main-tiga .main-tiga-satu div h1:hover {
+  text-decoration: underline;
+  opacity: .8;
+}
